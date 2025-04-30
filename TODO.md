@@ -1,0 +1,9 @@
+- [x] Hexa Architecture
+- [ ] Poetry project bootstrap
+- [ ] Just setup
+- [ ] "blob-style" implementation
+    - [ ] getopts CLI
+    - [ ] GOG integration https://github.com/gogcom/galaxy-integrations-python-api
+- [ ] Python module system
+- [ ] Typer CLI adapter
+- [ ] Hexa implementation
