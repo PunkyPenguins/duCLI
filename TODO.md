@@ -1,10 +1,10 @@
 - [x] Hexa Architecture
 - [ ] Poetry project bootstrap
 - [ ] Just setup
-- [ ] "blob-style" implementation
+- [ ] "blob-style" single-file implementation
     - [ ] getopts CLI
     - [ ] JSON game list
-- [ ] Python module system
+- [ ] Split into different files: understanding Python module system
 - [ ] Typer CLI adapter
 - [ ] Hexa implementation
 - [ ] GOG integration https://github.com/gogcom/galaxy-integrations-python-api

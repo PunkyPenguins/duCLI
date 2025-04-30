@@ -1,0 +1,19 @@
+[project]
+name = "ducli"
+version = "0.0.1"
+description = "Test project to list games depending of different provider like GOG, Steam, etc."
+authors = [
+    {name = "Thomas Volant",email = "duc@azsystem.fr"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[virtualenvs]
+in-project = true
