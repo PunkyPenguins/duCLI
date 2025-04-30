@@ -3,7 +3,8 @@
 - [ ] Just setup
 - [ ] "blob-style" implementation
     - [ ] getopts CLI
-    - [ ] GOG integration https://github.com/gogcom/galaxy-integrations-python-api
+    - [ ] JSON game list
 - [ ] Python module system
 - [ ] Typer CLI adapter
 - [ ] Hexa implementation
+- [ ] GOG integration https://github.com/gogcom/galaxy-integrations-python-api
