@@ -1,0 +1,3 @@
+setup:
+  poetry sync
+
