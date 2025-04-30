@@ -1,6 +1,6 @@
 - [x] Hexa Architecture
-- [ ] Poetry project bootstrap
-- [ ] Just setup
+- [x] Poetry project bootstrap
+- [x] Just setup
 - [ ] "blob-style" single-file implementation
     - [ ] getopts CLI
     - [ ] JSON game list
