@@ -1,0 +1,10 @@
+{
+    "games": [
+        {
+            "title": "Dark Soul",
+            "release_year": "2012",
+            "platforms": ["pc", "xbox360", "playstation3"],
+            "tags": ["action", "rpg"]
+        }
+    ]
+}

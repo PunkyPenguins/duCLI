@@ -1,5 +1,5 @@
 setup:
   poetry sync
 
-run:
-  poetry run main.py
+run *args:
+  poetry run main.py {{ args }}
