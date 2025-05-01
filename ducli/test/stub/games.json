@@ -3,8 +3,14 @@
         {
             "title": "Dark Soul",
             "release_year": "2012",
-            "platforms": ["pc", "xbox360", "playstation3"],
-            "tags": ["action", "rpg"]
+            "platforms": ["pc", "xbox_360", "playstation_3"],
+            "tags": ["action-rpg"]
+        },
+        {
+            "title": "Dark Soul II",
+            "release_year": "2014",
+            "platforms": ["pc", "xbox_360", "playstation_3", "playstation_4", "xbox_one"],
+            "tags": ["action-rpg"]
         }
     ]
 }
