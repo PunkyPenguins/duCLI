@@ -2,6 +2,7 @@
 
 # https://docs.python.org/3.6/library/argparse.html#required
 import argparse
+import json
 parser = argparse.ArgumentParser(description='Give me a white russian')
 parser.add_argument('--list-path', metavar='Games List Path', type=str, help='Path containing the List of Games', dest="listPath", required=True)
 args = parser.parse_args()
@@ -10,7 +11,14 @@ targetGamesFileDescriptor= open(args.listPath, 'r')
 content = targetGamesFileDescriptor.read()
 print (content)
 targetGamesFileDescriptor.close()
-print (content)
+loadedcontent = json.loads(content)
+#print (loadedcontent["games"][1]["title"])
+def list_games(games):
+    for item in games:
+        result = f"I own {item['title']} released in {item['release_year']} for {", ".join(item['platforms'])}"
+        print (result)
+  
+list_games(loadedcontent["games"])
 # path-exist = cat {args.listPath}
 # if
 #   path-exist = True
